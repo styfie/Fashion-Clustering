@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import joblib
 from PIL import Image
+from pathlib import Path
 
 import torch
 import torchvision.transforms as transforms
@@ -11,32 +12,57 @@ from torchvision.models import resnet50, ResNet50_Weights
 # =========================
 # CONFIG
 # =========================
-CSV_PATH = "data/clustered_fashion_demo.csv"
-MODEL_DIR = "models"
+CSV_PATH = Path("data/clustered_fashion_demo.csv")
+MODEL_DIR = Path("models")
 IMAGE_SIZE = 224
 TOP_K = 12
+DEVICE = torch.device("cpu")
+
+# =========================
+# PAGE CONFIG
+# =========================
+st.set_page_config(
+    page_title="FaSHioN — Editorial Visual Discovery",
+    layout="wide"
+)
 
 # =========================
 # LOAD DATA
 # =========================
-df = pd.read_csv(CSV_PATH)
+@st.cache_data
+def load_dataframe():
+    return pd.read_csv(CSV_PATH)
+
+df = load_dataframe()
 
 # =========================
-# LOAD MODELS
+# LOAD MODELS (SAFE)
 # =========================
-scaler = joblib.load(f"{MODEL_DIR}/scaler.pkl")
-pca = joblib.load(f"{MODEL_DIR}/pca.pkl")
-kmeans = joblib.load(f"{MODEL_DIR}/kmeans.pkl")
+@st.cache_resource
+def load_models():
+    try:
+        scaler = joblib.load(MODEL_DIR / "scaler.pkl")
+        pca = joblib.load(MODEL_DIR / "pca.pkl")
+        kmeans = joblib.load(MODEL_DIR / "kmeans.pkl")
+        return scaler, pca, kmeans
+    except FileNotFoundError:
+        st.error("Model files not found. Ensure `models/` is committed to GitHub.")
+        st.stop()
+
+scaler, pca, kmeans = load_models()
 
 # =========================
-# LOAD CNN
+# LOAD CNN (CACHED)
 # =========================
-device = torch.device("cpu")
+@st.cache_resource
+def load_cnn():
+    weights = ResNet50_Weights.DEFAULT
+    model = resnet50(weights=weights)
+    model.fc = torch.nn.Identity()
+    model.eval()
+    return model
 
-cnn = resnet50(weights=ResNet50_Weights.DEFAULT)
-cnn.fc = torch.nn.Identity()
-cnn.eval()
-cnn.to(device)
+cnn = load_cnn().to(DEVICE)
 
 # =========================
 # TRANSFORM
@@ -50,34 +76,22 @@ transform = transforms.Compose([
     )
 ])
 
-
 # =========================
-# STREAMLIT UI
+# PREMIUM EDITORIAL CSS
 # =========================
-st.set_page_config(
-    page_title="FaSHioN — Editorial Visual Discovery",
-    layout="wide"
-)
-
-# ---------- Premium Editorial CSS ----------
 st.markdown(
     """
     <style>
     .stApp {
         background-color: #fdfdfc;
     }
-
-    /* Typography */
     h1, h2, h3 {
-        font-family: 'Playfair Display', 'Georgia', serif;
+        font-family: 'Playfair Display', Georgia, serif;
         letter-spacing: 1.5px;
     }
-
     p, span, div {
-        font-family: 'Helvetica Neue', 'Arial', sans-serif;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
     }
-
-    /* Hero title */
     .hero-title {
         font-size: 56px;
         font-weight: 500;
@@ -85,7 +99,6 @@ st.markdown(
         margin-top: 40px;
         margin-bottom: 10px;
     }
-
     .hero-subtitle {
         text-align: center;
         color: #7a7a7a;
@@ -93,8 +106,6 @@ st.markdown(
         letter-spacing: 1px;
         margin-bottom: 60px;
     }
-
-    /* Section labels */
     .section-label {
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -102,13 +113,9 @@ st.markdown(
         color: #9a9a9a;
         margin-bottom: 10px;
     }
-
-    /* Image styling */
     img {
         border-radius: 6px;
     }
-
-    /* Remove Streamlit chrome */
     footer, header {
         visibility: hidden;
     }
@@ -117,18 +124,18 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# ---------- Hero ----------
-st.markdown(
-    "<div class='hero-title'>FaSHioN</div>",
-    unsafe_allow_html=True
-)
-
+# =========================
+# HERO
+# =========================
+st.markdown("<div class='hero-title'>FaSHioN</div>", unsafe_allow_html=True)
 st.markdown(
     "<div class='hero-subtitle'>EDITORIAL VISUAL DISCOVERY OF FASHION</div>",
     unsafe_allow_html=True
 )
 
-# ---------- Upload Section ----------
+# =========================
+# UPLOAD
+# =========================
 st.markdown("<div class='section-label'>Upload</div>", unsafe_allow_html=True)
 st.markdown(
     "<span style='color:#6f6f6f;'>Select a fashion item to explore visually similar pieces curated by form and texture.</span>",
@@ -142,14 +149,10 @@ uploaded_file = st.file_uploader(
 )
 
 if uploaded_file:
-    st.write("")
-    st.write("")
-
-    # ---------- Layout ----------
     left_col, right_col = st.columns([1, 2.3], gap="large")
 
     # =========================
-    # LEFT — FEATURE ITEM
+    # LEFT — SELECTED ITEM
     # =========================
     with left_col:
         st.markdown("<div class='section-label'>Selected Item</div>", unsafe_allow_html=True)
@@ -159,7 +162,7 @@ if uploaded_file:
     # =========================
     # FEATURE EXTRACTION
     # =========================
-    img_tensor = transform(image).unsqueeze(0).to(device)
+    img_tensor = transform(image).unsqueeze(0).to(DEVICE)
 
     with torch.no_grad():
         embedding = cnn(img_tensor).cpu().numpy()
@@ -179,19 +182,24 @@ if uploaded_file:
         )
 
         st.write("")
-        st.write("")
 
         cluster_df = df[df["cluster"] == cluster].sample(TOP_K)
 
         cols = st.columns(4)
         for i, (_, row) in enumerate(cluster_df.iterrows()):
-            img = Image.open(row["image_path"]).convert("RGB")
-            cols[i % 4].image(img, width=170)
+            img_path = Path(row["image_path"])
+            if img_path.exists():
+                img = Image.open(img_path).convert("RGB")
+                cols[i % 4].image(img, width=170)
+            else:
+                cols[i % 4].markdown(
+                    "<div style='height:170px; background:#f6f6f6;"
+                    "display:flex; align-items:center; justify-content:center;"
+                    "font-size:12px; color:#999;'>Image unavailable</div>",
+                    unsafe_allow_html=True
+                )
 
     st.write("")
-    st.write("")
-
-    # ---------- Editorial Footer ----------
     st.markdown(
         "<div style='text-align:center; color:#9a9a9a; font-size:12px; letter-spacing:1px;'>"
         "An editorial exploration of fashion through visual intelligence"
