@@ -1,0 +1,64 @@
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+pyvenv.cfg
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# =========================
+# Large ML artifacts (DO NOT COMMIT)
+# =========================
+embeddings/
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# =========================
+# Generated outputs
+# =========================
+outputs/
+cluster_grids/
+*.png
+*.jpg
+
+# =========================
+# Data (keep metadata only)
+# =========================
+data/images/
+data/*.npy
+data/*.npz
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
