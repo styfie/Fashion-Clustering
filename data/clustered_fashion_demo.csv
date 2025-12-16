@@ -1,0 +1,205 @@
+id,gender,masterCategory,subCategory,articleType,baseColour,season,year,usage,productDisplayName,image_path,cluster
+28536,Men,Apparel,Topwear,Tshirts,Red,Summer,2012.0,Sports,Nike Men Relay Red T-shirt,data/demo_images/28536.jpg,0
+2295,Women,Apparel,Topwear,Tshirts,Pink,Fall,2010.0,Sports,Nike Women Cruiser Pink T-shirt,data/demo_images/2295.jpg,0
+40993,Girls,Apparel,Topwear,Tops,Pink,Summer,2012.0,Casual,Gini and Jony Girls Pink Striped Top,data/demo_images/40993.jpg,0
+7513,Men,Apparel,Topwear,Tshirts,Red,Summer,2011.0,Sports,Nike Men's As Explosive Red T-shirt,data/demo_images/7513.jpg,0
+12842,Men,Apparel,Topwear,Tshirts,Navy Blue,Fall,2011.0,Casual,Ant Kids Warrior Kids Navy Blue Tshirts,data/demo_images/12842.jpg,0
+28567,Men,Apparel,Topwear,Tshirts,Grey,Summer,2012.0,Casual,Nike Men Who Else Grey T-shirt,data/demo_images/28567.jpg,0
+31092,Boys,Apparel,Topwear,Shirts,Maroon,Summer,2012.0,Casual,Gini and Jony Boys Maroon Shirt,data/demo_images/31092.jpg,0
+10019,Women,Apparel,Topwear,Tshirts,White,Fall,2011.0,Sports,Nike Women As Miler Ss White T-Shirts,data/demo_images/10019.jpg,0
+1645,Men,Apparel,Topwear,Tshirts,Black,Fall,2010.0,Sports,Kipsta Men Loose Fit Round Neck Jersey Black,data/demo_images/1645.jpg,0
+22614,Men,Apparel,Topwear,Tshirts,Navy Blue,Fall,2011.0,Sports,Nike Men Navy Blue T-shirt,data/demo_images/22614.jpg,0
+7555,Men,Apparel,Topwear,Tshirts,Yellow,Summer,2011.0,Sports,Nike Men's Arsenal Core Yellow T-shirt,data/demo_images/7555.jpg,0
+10721,Men,Apparel,Topwear,Tshirts,White,Fall,2011.0,Sports,Nike Men Runng Mens tshirt White Tshirts,data/demo_images/10721.jpg,0
+12292,Men,Apparel,Topwear,Shirts,Blue,Fall,2011.0,Formal,Genesis Men Check Blue Shirts,data/demo_images/12292.jpg,1
+16002,Men,Apparel,Topwear,Sweaters,Grey,Fall,2011.0,Casual,Turtle Solid Men Grey Sweaters,data/demo_images/16002.jpg,1
+9460,Men,Apparel,Topwear,Shirts,White,Fall,2011.0,Formal,John Miller Men Stripes White Blend White Shirts,data/demo_images/9460.jpg,1
+2131,Men,Apparel,Topwear,Shirts,Blue,Summer,2011.0,Casual,Basics Men Blue Slim Fit Checked Shirt,data/demo_images/2131.jpg,1
+19161,Men,Apparel,Topwear,Tshirts,White,Summer,2011.0,Casual,United Colors of Benetton Men Solid White Tshirt,data/demo_images/19161.jpg,1
+13120,Men,Apparel,Topwear,Jackets,Navy Blue,Fall,2011.0,Sports,ADIDAS Men Ess 3s Rainjkt Navy Blue Jackets,data/demo_images/13120.jpg,1
+14316,Men,Apparel,Topwear,Sweatshirts,Navy Blue,Fall,2011.0,Casual,ADIDAS Men Solid Navy Blue Sweatshirts,data/demo_images/14316.jpg,1
+1668,Men,Apparel,Topwear,Tshirts,Red,Fall,2010.0,Casual,Reebok Men Playdry Full Sleeved T-shirt Red,data/demo_images/1668.jpg,1
+22323,Men,Apparel,Topwear,Jackets,Red,Summer,2015.0,Casual,Wildcraft Men Solid Red Wind Cheater,data/demo_images/22323.jpg,1
+22202,Men,Apparel,Topwear,Jackets,Blue,Fall,2011.0,Casual,Timberland Men Bonded Fleece Full Zip Blue Jacket,data/demo_images/22202.jpg,1
+11778,Men,Apparel,Topwear,Tshirts,Grey,Fall,2011.0,Casual,Lee Men Solid Grey Tshirts,data/demo_images/11778.jpg,1
+19957,Men,Apparel,Topwear,Sweaters,Grey,Fall,2011.0,Casual,United Colors of Benetton Men Grey Sweater,data/demo_images/19957.jpg,1
+20187,Men,Apparel,Topwear,Shirts,Blue,Fall,2011.0,Casual,Wrangler Men Solid Chambray Blue Shirt,data/demo_images/20187.jpg,2
+58740,Men,Apparel,Topwear,Tshirts,Pink,Fall,2012.0,Casual,Puma Men Pink T-shirt,data/demo_images/58740.jpg,2
+13500,Men,Apparel,Topwear,Tshirts,Grey,Fall,2011.0,Casual,Chimp Men VVVIP Grey T-shirts,data/demo_images/13500.jpg,2
+19956,Men,Apparel,Topwear,Sweaters,Green,Spring,2013.0,Casual,United Colors of Benetton Men Green Sweater,data/demo_images/19956.jpg,2
+17933,Men,Apparel,Topwear,Tshirts,Red,Fall,2011.0,Casual,Puma Men Ferrari Logo Tee II Red Tshirt,data/demo_images/17933.jpg,2
+2607,Men,Apparel,Topwear,Tshirts,Black,Fall,2010.0,Sports,ADIDAS Men's Black Stripe T-shirt,data/demo_images/2607.jpg,2
+19398,Men,Apparel,Topwear,Tshirts,Blue,Summer,2011.0,Sports,ADIDAS Men Solid Blue Jersey,data/demo_images/19398.jpg,2
+15763,Men,Apparel,Innerwear,Innerwear Vests,Charcoal,Summer,2016.0,Casual,Facit Men Sportz Charcoal Innerwear Vest,data/demo_images/15763.jpg,2
+2069,Women,Apparel,Topwear,Tshirts,White,Fall,2010.0,Sports,ADIDAS Womens Tank White T-shirt,data/demo_images/2069.jpg,2
+49977,Men,Apparel,Innerwear,Innerwear Vests,Red,Summer,2016.0,Casual,Hanes Men Red Innerwear Vest,data/demo_images/49977.jpg,2
+3345,Men,Apparel,Topwear,Tshirts,White,Summer,2011.0,Casual,Myntra Men's Executive White T-shirt,data/demo_images/3345.jpg,2
+57183,Women,Apparel,Topwear,Tunics,Lavender,Summer,2012.0,Casual,Elle Women Violet and Lavender Tunic,data/demo_images/57183.jpg,2
+26999,Women,Apparel,Bottomwear,Jeans,Blue,Summer,2012.0,Casual,Jealous 21 Women Washed Blue Jeans,data/demo_images/26999.jpg,3
+13779,Men,Apparel,Bottomwear,Trousers,Cream,Fall,2011.0,Casual,Belmonte Men Solid Cream Trousers,data/demo_images/13779.jpg,3
+31430,Men,Apparel,Bottomwear,Trousers,Grey,Summer,2012.0,Casual,HIghlander Men Grey Trousers,data/demo_images/31430.jpg,3
+27916,Women,Apparel,Bottomwear,Trousers,Grey,Summer,2012.0,Formal,Scullers For Her Grey Trousers,data/demo_images/27916.jpg,3
+17623,Men,Apparel,Bottomwear,Track Pants,Grey,Fall,2011.0,Sports,ADIDAS Men Solid Grey Track Pant,data/demo_images/17623.jpg,3
+39807,Men,Apparel,Bottomwear,Trousers,Navy Blue,Spring,2013.0,Formal,Peter England Men Navy Blue Formal Trousers,data/demo_images/39807.jpg,3
+33815,Men,Apparel,Bottomwear,Trousers,Black,Summer,2012.0,Formal,Van Heusen Men Classic Pleated Black Trousers,data/demo_images/33815.jpg,3
+26160,Men,Apparel,Bottomwear,Trousers,Navy Blue,Summer,2012.0,Formal,John Miller Men  Navy Blue Trouser,data/demo_images/26160.jpg,3
+57093,Women,Apparel,Bottomwear,Shorts,Blue,Summer,2012.0,Casual,Elle Women Blue Shorts,data/demo_images/57093.jpg,3
+46342,Men,Apparel,Bottomwear,Jeans,Blue,Summer,2012.0,Casual,Locomotive Men Blue Jeans,data/demo_images/46342.jpg,3
+8030,Men,Apparel,Bottomwear,Track Pants,Grey,Fall,2011.0,Sports,Fila Men's Basic Cotton Lower Grey Track Pant,data/demo_images/8030.jpg,3
+32437,Men,Apparel,Bottomwear,Track Pants,Navy Blue,Summer,2012.0,Sports,ADIDAS Men Navy Blue Track Pants,data/demo_images/32437.jpg,3
+19603,Women,Apparel,Topwear,Tshirts,Black,Summer,2011.0,Casual,United Colors of Benetton Women Black T-shirt,data/demo_images/19603.jpg,4
+44684,Women,Apparel,Topwear,Tops,Multi,Summer,2012.0,Casual,Wills Lifestyle Women Multi Coloured Top,data/demo_images/44684.jpg,4
+43509,Women,Apparel,Dress,Dresses,Grey Melange,Summer,2012.0,Casual,French Connection Women Grey Melange Dress,data/demo_images/43509.jpg,4
+49978,Men,Apparel,Innerwear,Innerwear Vests,Navy Blue,Summer,2016.0,Casual,Hanes Men Navy Blue Innerwear Vest,data/demo_images/49978.jpg,4
+12542,Women,Apparel,Topwear,Tshirts,Blue,Fall,2011.0,Casual,Tantra Women Blue Printed T-shirt,data/demo_images/12542.jpg,4
+59407,Women,Apparel,Topwear,Tshirts,Grey,Summer,2010.0,Casual,Tokyo Talkies Women Grey T-shirt,data/demo_images/59407.jpg,4
+41377,Women,Apparel,Topwear,Tops,Yellow,Summer,2012.0,Casual,Wrangler Women Yellow Maria Top,data/demo_images/41377.jpg,4
+41402,Women,Apparel,Topwear,Tshirts,Pink,Summer,2012.0,Casual,Wrangler Women Pink T-shirt,data/demo_images/41402.jpg,4
+48472,Women,Apparel,Dress,Dresses,Black,Summer,2012.0,Casual,French Connection Black Dress,data/demo_images/48472.jpg,4
+44944,Women,Apparel,Dress,Dresses,Navy Blue,Fall,2012.0,Casual,United Colors of Benetton Women Navy Blue Dress,data/demo_images/44944.jpg,4
+10070,Women,Apparel,Topwear,Tshirts,Pink,Fall,2011.0,Casual,Puma Women Large logo tee Pink Tshirts,data/demo_images/10070.jpg,4
+6893,Women,Apparel,Dress,Dresses,Black,Summer,2011.0,Casual,Forever New Women Straps Black Dress,data/demo_images/6893.jpg,4
+21930,Women,Apparel,Topwear,Kurtas,Blue,Fall,2011.0,Ethnic,BIBA Women Printed Blue Kurta,data/demo_images/21930.jpg,5
+12065,Women,Apparel,Topwear,Kurtas,Navy Blue,Fall,2011.0,Ethnic,W Women Printed Navy Blue Kurtas,data/demo_images/12065.jpg,5
+40610,Women,Apparel,Topwear,Kurtas,Purple,Summer,2012.0,Ethnic,Span Women Purple Kurta,data/demo_images/40610.jpg,5
+12105,Women,Apparel,Topwear,Kurtis,White,Fall,2011.0,Ethnic,W Women Printed White Kurtis,data/demo_images/12105.jpg,5
+30144,Women,Apparel,Topwear,Tshirts,Black,Summer,2012.0,Casual,Flying Machine Women Printed Black T-shirt,data/demo_images/30144.jpg,5
+24385,Women,Apparel,Topwear,Kurtas,Off White,Fall,2011.0,Ethnic,Folklore Women Off White Printed Kurta,data/demo_images/24385.jpg,5
+33977,Women,Apparel,Topwear,Tops,Black,Summer,2012.0,Casual,Femella Women Printed Black Top,data/demo_images/33977.jpg,5
+42542,Women,Apparel,Topwear,Kurtas,Blue,Summer,2012.0,Ethnic,Mother Earth Women Blue Kurta,data/demo_images/42542.jpg,5
+59376,Women,Apparel,Topwear,Kurtas,Green,Summer,2012.0,Ethnic,Vishudh Women Green Printed Kurta,data/demo_images/59376.jpg,5
+24499,Women,Apparel,Topwear,Kurtas,Green,Fall,2011.0,Ethnic,Mother Earth Women Green Printed Kurta,data/demo_images/24499.jpg,5
+45834,Women,Apparel,Topwear,Kurtas,Red,Summer,2012.0,Ethnic,Vishudh Women Red Kurta,data/demo_images/45834.jpg,5
+7409,Women,Apparel,Topwear,Kurtas,Pink,Summer,2011.0,Ethnic,W Women Round Neck Short Sleeve Pink Kurta,data/demo_images/7409.jpg,5
+50987,Women,Apparel,Innerwear,Briefs,Purple,Fall,2012.0,Casual,Enamor Women Purple Dress Up 07 Briefs,data/demo_images/50987.jpg,6
+54329,Women,Apparel,Innerwear,Briefs,Black,Summer,2017.0,Casual,Garfield Women Black String Briefs,data/demo_images/54329.jpg,6
+31252,Men,Apparel,Topwear,Tshirts,Green,Summer,2012.0,Casual,Puma Men Dizzy Graphic Green T-shirt,data/demo_images/31252.jpg,6
+53534,Women,Apparel,Innerwear,Briefs,Grey,Summer,2018.0,Casual,Amante Women Grey Seamless Briefs PCSN11,data/demo_images/53534.jpg,6
+47258,Men,Apparel,Innerwear,Briefs,Navy Blue,Summer,2016.0,Casual,FCUK Underwear Men Navy Blue Brief,data/demo_images/47258.jpg,6
+50475,Men,Apparel,Innerwear,Briefs,Navy Blue,Winter,2016.0,Casual,Chromozome Men Navy Blue Brief,data/demo_images/50475.jpg,6
+50502,Men,Apparel,Innerwear,Briefs,Grey,Winter,2016.0,Casual,Chromozome Men Grey & Red Briefs,data/demo_images/50502.jpg,6
+50616,Men,Apparel,Innerwear,Briefs,Grey Melange,Summer,2016.0,Casual,Chromozome Men Grey Melange Brief,data/demo_images/50616.jpg,6
+50990,Women,Apparel,Innerwear,Briefs,Red,Summer,2017.0,Casual,Enamor Women Red Briefs,data/demo_images/50990.jpg,6
+57407,Women,Apparel,Innerwear,Briefs,White,Winter,2015.0,Casual,Amante Women White Bikini Briefs PGSI01,data/demo_images/57407.jpg,6
+18699,Men,Apparel,Innerwear,Briefs,Blue,Summer,2016.0,Casual,Hanes Men Blue Ultimate Duo Dry Cotton Stretch Bikini Briefs,data/demo_images/18699.jpg,6
+54320,Women,Apparel,Innerwear,Briefs,Pink,Summer,2017.0,Casual,Garfield Women Pink String Briefs,data/demo_images/54320.jpg,6
+26789,Men,Apparel,Topwear,Shirts,Blue,Summer,2012.0,Formal,Arrow Men Blue Shirt,data/demo_images/26789.jpg,7
+18518,Men,Apparel,Topwear,Jackets,Navy Blue,Fall,2011.0,Casual,C Vox Men Delirious Disclosure Navy Blue Jacket,data/demo_images/18518.jpg,7
+14763,Men,Apparel,Topwear,Shirts,White,Fall,2011.0,Formal,Arrow Men Stripes White Shirts,data/demo_images/14763.jpg,7
+17898,Men,Apparel,Topwear,Jackets,Grey,Fall,2011.0,Casual,Nike Men Casual Grey Jacket,data/demo_images/17898.jpg,7
+14732,Men,Apparel,Topwear,Shirts,Blue,Fall,2011.0,Formal,Arrow Men Stripes Blue Shirts,data/demo_images/14732.jpg,7
+17719,Men,Apparel,Topwear,Shirts,White,Fall,2011.0,Casual,Reid & Taylor Men Check White Shirt,data/demo_images/17719.jpg,7
+23029,Men,Apparel,Topwear,Shirts,Blue,Fall,2011.0,Formal,Arrow Men Blue Striped Shirt,data/demo_images/23029.jpg,7
+18520,Women,Apparel,Topwear,Jackets,Black,Fall,2011.0,Casual,C Vox Women Solid 1354 Black Jacket,data/demo_images/18520.jpg,7
+13997,Men,Apparel,Topwear,Sweatshirts,Blue,Fall,2011.0,Sports,Nike Men Solid Blue Sweatshirts,data/demo_images/13997.jpg,7
+22627,Men,Apparel,Topwear,Sweaters,White,Fall,2011.0,Sports,Nike Men White Sweater,data/demo_images/22627.jpg,7
+17901,Men,Apparel,Topwear,Jackets,Black,Fall,2011.0,Sports,Nike Men Football Soccer Black Jacket,data/demo_images/17901.jpg,7
+14769,Men,Apparel,Topwear,Shirts,Blue,Fall,2011.0,Formal,Arrow Men Stripes Blue Shirts,data/demo_images/14769.jpg,7
+28049,Men,Apparel,Innerwear,Briefs,Black,Summer,2016.0,Casual,Jockey ELANCE Mens Black  Pack of two Briefs 1009,data/demo_images/28049.jpg,8
+27512,Women,Apparel,Innerwear,Briefs,Black,Winter,2015.0,Casual,Jockey Lace Stretch Black Bikini Brief,data/demo_images/27512.jpg,8
+28888,Women,Apparel,Innerwear,Briefs,Black,Summer,2012.0,Casual,Enamor Women Black Low-Rise Bikini Brief,data/demo_images/28888.jpg,8
+25355,Men,Apparel,Innerwear,Briefs,Black,Summer,2016.0,Casual,Levis Men Black and Blue Brief,data/demo_images/25355.jpg,8
+54602,Men,Apparel,Innerwear,Briefs,Navy Blue,Summer,2016.0,Casual,Jockey ELANCE Men Navy Blue Briefs 1004,data/demo_images/54602.jpg,8
+18696,Men,Apparel,Innerwear,Briefs,Black,Summer,2016.0,Casual,Hanes Men Black Ultimate Duo Dry Cotton Stretch Bikini Briefs,data/demo_images/18696.jpg,8
+25349,Men,Apparel,Innerwear,Briefs,Red,Summer,2016.0,Casual,Levis Men Red Brief,data/demo_images/25349.jpg,8
+28020,Men,Apparel,Innerwear,Briefs,Blue,Summer,2016.0,Casual,Jockey ELANCE Mens Blue Pack of two Briefs 1004,data/demo_images/28020.jpg,8
+50562,Men,Apparel,Innerwear,Briefs,Brown,Summer,2016.0,Casual,Chromozome Men Pack of Two  Briefs,data/demo_images/50562.jpg,8
+15815,Men,Apparel,Innerwear,Briefs,Grey,Summer,2016.0,Casual,Facit Men Trophy BF Grey Briefs,data/demo_images/15815.jpg,8
+50563,Men,Apparel,Innerwear,Briefs,Grey Melange,Summer,2016.0,Casual,Chromozome Men Pack of Two  Briefs,data/demo_images/50563.jpg,8
+27513,Women,Apparel,Innerwear,Briefs,Skin,Winter,2015.0,Casual,Jockey Lace Stretch Skin Bikini Brief,data/demo_images/27513.jpg,8
+53800,Men,Apparel,Topwear,Tshirts,Black,Summer,2012.0,Casual,Puma Men Black T-shirt,data/demo_images/53800.jpg,9
+27583,Men,Apparel,Topwear,Tshirts,Yellow,Summer,2012.0,Casual,Scullers Men Yellow & Navy Blue Striped T-shirt,data/demo_images/27583.jpg,9
+59126,Men,Apparel,Topwear,Jackets,Navy Blue,Summer,2012.0,Casual,Just Natural Men Navy Blue & Black Reversible Jacket,data/demo_images/59126.jpg,9
+4383,Men,Apparel,Topwear,Tshirts,Blue,Summer,2011.0,Casual,Batman Men's Comics Foil Dark Blue T-shirt,data/demo_images/4383.jpg,9
+20316,Men,Apparel,Topwear,Tshirts,Black,Fall,2011.0,Casual,Locomotive Men Black Printed T-shirt,data/demo_images/20316.jpg,9
+3682,Men,Apparel,Topwear,Tshirts,Blue,Summer,2011.0,Casual,Inkfruit Men's Bring Back 80''S Blue T-shirt,data/demo_images/3682.jpg,9
+14111,Men,Apparel,Topwear,Sweatshirts,Navy Blue,Fall,2011.0,Casual,Flying Machine Men Printed Navy Blue Sweatshirts,data/demo_images/14111.jpg,9
+2055,Men,Apparel,Topwear,Tshirts,Grey,Winter,2010.0,Casual,Lee Men's Sahara Storm Rider T-shirt,data/demo_images/2055.jpg,9
+26727,Men,Apparel,Topwear,Tshirts,Black,Summer,2012.0,Casual,Puma Men Tech Black T-shirt,data/demo_images/26727.jpg,9
+4408,Men,Apparel,Topwear,Tshirts,Blue,Summer,2011.0,Casual,DC Comics Men's Batman Logo Royal Blue T-shirt,data/demo_images/4408.jpg,9
+3416,Men,Apparel,Topwear,Tshirts,Blue,Summer,2011.0,Casual,Myntra Mens Broken Guitar T-shirt,data/demo_images/3416.jpg,9
+29584,Men,Apparel,Topwear,Tshirts,Black,Summer,2012.0,Casual,Indigo Nation Men Printed Black T-shirt,data/demo_images/29584.jpg,9
+21150,Men,Apparel,Topwear,Shirts,Blue,Fall,2011.0,Casual,s.Oliver Men Check Blue Shirts,data/demo_images/21150.jpg,10
+16532,Men,Apparel,Topwear,Shirts,Blue,Fall,2011.0,Casual,Locomotive Men Check Blue Shirt,data/demo_images/16532.jpg,10
+51401,Men,Apparel,Topwear,Shirts,Blue,Summer,2012.0,Casual,Myntra Men Blue and Yellow Check Shirt,data/demo_images/51401.jpg,10
+20174,Men,Apparel,Topwear,Shirts,Green,Fall,2011.0,Casual,Wrangler Men Dark Green Check Shirt,data/demo_images/20174.jpg,10
+11701,Men,Apparel,Topwear,Shirts,White,Fall,2011.0,Casual,Lee Men Check White Shirts,data/demo_images/11701.jpg,10
+8611,Men,Apparel,Topwear,Tshirts,White,Fall,2011.0,Casual,Scullers Men White Polo T-Shirts,data/demo_images/8611.jpg,10
+2094,Men,Apparel,Topwear,Shirts,White,Winter,2010.0,Casual,Lee Men Checks Green Shirt,data/demo_images/2094.jpg,10
+19825,Men,Apparel,Topwear,Shirts,Green,Fall,2011.0,Casual,U.S. Polo Assn. Men Check Green Shirt,data/demo_images/19825.jpg,10
+11676,Men,Apparel,Topwear,Shirts,Blue,Fall,2011.0,Casual,Lee Men Check Blue Shirts,data/demo_images/11676.jpg,10
+56819,Men,Apparel,Topwear,Shirts,Blue,Summer,2012.0,Casual,John Players Men Blue Shirt,data/demo_images/56819.jpg,10
+58726,Men,Apparel,Topwear,Tshirts,Grey,Summer,2012.0,Casual,Puma Men Grey T-shirt,data/demo_images/58726.jpg,10
+43485,Men,Apparel,Topwear,Shirts,Navy Blue,Summer,2012.0,Casual,French Connection Men Navy Blue Shirt,data/demo_images/43485.jpg,10
+53042,Women,Apparel,Saree,Sarees,Red,Fall,2012.0,Ethnic,FNF Women Red Printed Sari,data/demo_images/53042.jpg,11
+59593,Women,Apparel,Saree,Sarees,Blue,Fall,2012.0,Ethnic,FNF Blue & Purple Collection for Wedding Sari,data/demo_images/59593.jpg,11
+50896,Women,Apparel,Saree,Sarees,Mustard,Fall,2012.0,Ethnic,Prafful Mustard & Maroon Crepe Printed Sari,data/demo_images/50896.jpg,11
+53049,Women,Apparel,Saree,Sarees,Multi,Fall,2012.0,Ethnic,FNF Multi Coloured Printed Sari,data/demo_images/53049.jpg,11
+50875,Women,Apparel,Saree,Sarees,Green,Fall,2012.0,Ethnic,Prafful Green & Maroon Printed Sari,data/demo_images/50875.jpg,11
+52986,Women,Apparel,Saree,Sarees,Multi,Fall,2012.0,Ethnic,FNF Multi Coloured Sari,data/demo_images/52986.jpg,11
+59642,Women,Apparel,Saree,Sarees,Black,Fall,2012.0,Ethnic,FNF Pink & Black Collection For Wedding Sari,data/demo_images/59642.jpg,11
+53003,Women,Apparel,Saree,Sarees,Multi,Fall,2012.0,Ethnic,FNF Multi Coloured Printed Sari,data/demo_images/53003.jpg,11
+50876,Women,Apparel,Saree,Sarees,Green,Summer,2012.0,Ethnic,Prafful Green & Beige Crepe Sari,data/demo_images/50876.jpg,11
+52972,Women,Apparel,Saree,Sarees,Multi,Fall,2012.0,Ethnic,FNF Multi Coloured Sari,data/demo_images/52972.jpg,11
+59594,Women,Apparel,Saree,Sarees,Rust,Fall,2012.0,Ethnic,FNF Rust Wedding Collection Sari,data/demo_images/59594.jpg,11
+34953,Women,Apparel,Saree,Sarees,Beige,Summer,2012.0,Ethnic,Fabindia Beige Jaipur Print Cotton Sari,data/demo_images/34953.jpg,11
+51794,Women,Apparel,Innerwear,Briefs,Cream,Summer,2016.0,Casual,Bwitch Women Cream Briefs,data/demo_images/51794.jpg,12
+30468,Women,Apparel,Innerwear,Bra,Black,Summer,2014.0,Casual,Lovable Women All Day Long Black Bra,data/demo_images/30468.jpg,12
+30477,Women,Apparel,Innerwear,Bra,Beige,Summer,2014.0,Casual,Lovable Women Encircle Beige Bra,data/demo_images/30477.jpg,12
+57312,Women,Apparel,Innerwear,Bra,Nude,Winter,2015.0,Casual,Amante Nude-Coloured Full-Coverage Bra BCFN02,data/demo_images/57312.jpg,12
+56280,Women,Apparel,Innerwear,Bra,Red,Winter,2015.0,Casual,Biara Women Red Bra,data/demo_images/56280.jpg,12
+27144,Women,Apparel,Innerwear,Bra,White,Summer,2012.0,Casual,Miss-T White Bra,data/demo_images/27144.jpg,12
+57324,Women,Apparel,Innerwear,Bra,Black,Winter,2015.0,Casual,Amante Black Push-Up Bra BCLH01,data/demo_images/57324.jpg,12
+59069,Women,Apparel,Innerwear,Bra,White,Summer,2017.0,Casual,Peri Peri Women White Bra,data/demo_images/59069.jpg,12
+50966,Women,Apparel,Innerwear,Bra,Navy Blue,Summer,2017.0,Casual,Enamor Navy Blue Smooth Bra,data/demo_images/50966.jpg,12
+50970,Women,Apparel,Innerwear,Bra,Purple,Summer,2017.0,Casual,Enamor Women Purple Bra,data/demo_images/50970.jpg,12
+50044,Women,Apparel,Innerwear,Bra,Skin,Winter,2015.0,Casual,Hanes Women Beige Concealing Petals Strapless Bra,data/demo_images/50044.jpg,12
+57311,Women,Apparel,Innerwear,Bra,Black,Winter,2015.0,Casual,Amante Black Full-Coverage Bra BCFN02,data/demo_images/57311.jpg,12
+40158,Girls,Apparel,Topwear,Tops,Blue,Summer,2012.0,Casual,Gini and Jony Girls Summer Up Blue Top,data/demo_images/40158.jpg,13
+4206,Boys,Apparel,Topwear,Tshirts,Red,Summer,2011.0,Casual,Disney Kids Boy's Red Mickeys Scrap Book Kidswear,data/demo_images/4206.jpg,13
+34094,Girls,Apparel,Topwear,Tops,Lime Green,Summer,2012.0,Casual,Doodle Girls Printed Lime Green Top,data/demo_images/34094.jpg,13
+40956,Boys,Apparel,Topwear,Tshirts,Red,Summer,2012.0,Casual,Gini and Jony Boys Comics Red T-shirt,data/demo_images/40956.jpg,13
+35998,Boys,Apparel,Topwear,Tshirts,White,Summer,2012.0,Casual,Ben 10 Boys Crew White T-shirt,data/demo_images/35998.jpg,13
+50717,Boys,Apparel,Topwear,Tshirts,White,Summer,2012.0,Casual,Doodle Boys white Printed T-Shirt,data/demo_images/50717.jpg,13
+4207,Boys,Apparel,Topwear,Tshirts,Blue,Summer,2011.0,Casual,Disney Kids Boy's Blue Colourtastic Kidswear,data/demo_images/4207.jpg,13
+12603,Unisex,Apparel,Topwear,Tshirts,Red,Fall,2011.0,Casual,Tantra Unisex Printed Red Tshirts,data/demo_images/12603.jpg,13
+36723,Boys,Apparel,Topwear,Tshirts,Yellow,Summer,2012.0,Casual,Gini and Jony Boys Striped Yellow T-Shirt,data/demo_images/36723.jpg,13
+17809,Men,Apparel,Topwear,Tshirts,Multi,Fall,2011.0,Casual,Chhota Bheem Kids Boy Chhota Bheem and Krishna Multi Tshirt,data/demo_images/17809.jpg,13
+35458,Boys,Apparel,Topwear,Tshirts,Pink,Summer,2012.0,Casual,Doodle Boys Printed Pink T-shirt,data/demo_images/35458.jpg,13
+3813,Boys,Apparel,Topwear,Tshirts,Yellow,Summer,2011.0,Casual,Disney Kids Boy's Street Crew Yellow Kidswear,data/demo_images/3813.jpg,13
+11277,Men,Apparel,Bottomwear,Track Pants,Blue,Fall,2011.0,Sports,Nike Men Crickt Blue Track Pants,data/demo_images/11277.jpg,14
+27207,Men,Apparel,Bottomwear,Shorts,White,Summer,2012.0,Casual,Doodle Kids Boy  White Shorts,data/demo_images/27207.jpg,14
+7187,Women,Apparel,Bottomwear,Jeans,Black,Fall,2011.0,Casual,Jealous 21 Women Supper Zipped Ankle Black Jeans,data/demo_images/7187.jpg,14
+28627,Men,Apparel,Bottomwear,Shorts,Black,Summer,2012.0,Sports,Nike Men Longer Knit Black Shorts,data/demo_images/28627.jpg,14
+28148,Men,Apparel,Innerwear,Innerwear Vests,Black,Summer,2016.0,Casual,Jockey SPORT Men Black Innerwear Vest 9924,data/demo_images/28148.jpg,14
+22590,Men,Apparel,Bottomwear,Shorts,Grey,Fall,2011.0,Sports,Nike Men Solid Grey Shorts,data/demo_images/22590.jpg,14
+7487,Women,Apparel,Bottomwear,Track Pants,Black,Summer,2011.0,Sports,Nike Women Be Strong Black Track Pant,data/demo_images/7487.jpg,14
+30616,Women,Apparel,Bottomwear,Track Pants,Black,Summer,2012.0,Sports,Nike Women Black Track Pants,data/demo_images/30616.jpg,14
+38930,Girls,Apparel,Bottomwear,Jeans,Blue,Summer,2012.0,Casual,Gini and Jony Girls Blue Jeans,data/demo_images/38930.jpg,14
+13306,Boys,Apparel,Bottomwear,Trousers,Black,Fall,2011.0,Casual,Gini and Jony Kids Solid Black Trousers,data/demo_images/13306.jpg,14
+13300,Men,Apparel,Bottomwear,Shorts,Beige,Fall,2011.0,Casual,Gini and Jony Men Solid Beige Shorts,data/demo_images/13300.jpg,14
+41977,Boys,Apparel,Bottomwear,Shorts,White,Summer,2012.0,Casual,Gini and Jony Boys Beach White Shorts,data/demo_images/41977.jpg,14
+30514,Women,Apparel,Innerwear,Bra,Pink,Summer,2017.0,Casual,Lovable Women Spice Pink Bra,data/demo_images/30514.jpg,15
+41814,Women,Apparel,Innerwear,Bra,Pink,Summer,2017.0,Casual,Enamor Women Pink Bra,data/demo_images/41814.jpg,15
+27456,Women,Apparel,Innerwear,Bra,White,Winter,2015.0,Casual,Jockey Women White Full-Coverage Bra 1616,data/demo_images/27456.jpg,15
+30473,Women,Apparel,Innerwear,Bra,Beige,Summer,2014.0,Casual,Lovable Women All Day Long Beige Bra,data/demo_images/30473.jpg,15
+21611,Women,Apparel,Innerwear,Bra,Pink,Summer,2014.0,Casual,Enamor Women Smooth Pink Bra,data/demo_images/21611.jpg,15
+21629,Women,Apparel,Innerwear,Bra,White,Fall,2012.0,Casual,Enamor Women Lift White Bra,data/demo_images/21629.jpg,15
+21644,Women,Apparel,Innerwear,Bra,White,Fall,2012.0,Casual,Enamor Women Smooth White Bra,data/demo_images/21644.jpg,15
+27479,Women,Apparel,Innerwear,Bra,White,Winter,2015.0,Casual,Jockey Essence White Seamless Bra 2003,data/demo_images/27479.jpg,15
+27457,Women,Apparel,Innerwear,Bra,Black,Fall,2015.0,Casual,Jockey Black Seamless Bra 1672,data/demo_images/27457.jpg,15
+27505,Women,Apparel,Innerwear,Bra,Black,Winter,2015.0,Casual,Jockey Women Black Underwired Bra SS 14,data/demo_images/27505.jpg,15
+27121,Women,Apparel,Innerwear,Bra,Maroon,Summer,2017.0,Casual,Miss-T Maroon Bra,data/demo_images/27121.jpg,15
+27460,Women,Apparel,Innerwear,Bra,Black,Winter,2015.0,Casual,Jockey Black Seamless Bra 1718,data/demo_images/27460.jpg,15
+21877,Women,Apparel,Topwear,Kurtas,Blue,Fall,2011.0,Ethnic,BIBA Women Sliver Stripes Blue Kurta,data/demo_images/21877.jpg,16
+19333,Women,Apparel,Topwear,Jackets,Navy Blue,Fall,2011.0,Casual,United Colors of Benetton Women Solid Navy Blue Jacket,data/demo_images/19333.jpg,16
+29277,Women,Apparel,Topwear,Shirts,Blue,Summer,2012.0,Casual,Wrangler Women Salena Blue Shirt,data/demo_images/29277.jpg,16
+24170,Women,Apparel,Topwear,Kurtis,Blue,Summer,2012.0,Ethnic,Aurelia Women Blue Printed Kurti,data/demo_images/24170.jpg,16
+15037,Women,Apparel,Topwear,Sweaters,Black,Fall,2011.0,Casual,ADIDAS Women Check Black Sweaters,data/demo_images/15037.jpg,16
+18756,Women,Apparel,Topwear,Shirts,Blue,Fall,2011.0,Casual,Arrow Woman Kiro Blue Shirt,data/demo_images/18756.jpg,16
+32198,Men,Apparel,Topwear,Kurtas,Grey,Summer,2012.0,Ethnic,Fabindia Men Printed Grey Kurta,data/demo_images/32198.jpg,16
+18900,Women,Apparel,Topwear,Tops,Black,Fall,2011.0,Casual,Arrow Woman Igor Black Top,data/demo_images/18900.jpg,16
+23144,Women,Apparel,Topwear,Sweatshirts,Brown,Fall,2011.0,Casual,Quechua Women  Fleece Brown Sweatshirt,data/demo_images/23144.jpg,16
+40594,Women,Apparel,Topwear,Kurtis,Rust,Summer,2012.0,Ethnic,Aurelia Women Rust Kurti,data/demo_images/40594.jpg,16
+14628,Women,Apparel,Topwear,Sweatshirts,Blue,Fall,2011.0,Casual,United Colors of Benetton Women Solid Blue Sweat Shirts,data/demo_images/14628.jpg,16
+33967,Women,Apparel,Topwear,Shirts,Black,Summer,2012.0,Casual,Femella Women Black Top,data/demo_images/33967.jpg,16
