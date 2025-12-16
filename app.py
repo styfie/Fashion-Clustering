@@ -6,12 +6,12 @@ from PIL import Image
 
 import torch
 import torchvision.transforms as transforms
-from torchvision import models
+from torchvision.models import resnet50, ResNet50_Weights
 
 # =========================
 # CONFIG
 # =========================
-CSV_PATH = "data/clustered_fashion_10k.csv"
+CSV_PATH = "data/clustered_fashion_demo.csv"
 MODEL_DIR = "models"
 IMAGE_SIZE = 224
 TOP_K = 12
@@ -33,7 +33,7 @@ kmeans = joblib.load(f"{MODEL_DIR}/kmeans.pkl")
 # =========================
 device = torch.device("cpu")
 
-cnn = models.resnet50(pretrained=True)
+cnn = resnet50(weights=ResNet50_Weights.DEFAULT)
 cnn.fc = torch.nn.Identity()
 cnn.eval()
 cnn.to(device)
@@ -136,7 +136,7 @@ st.markdown(
 )
 
 uploaded_file = st.file_uploader(
-    "",
+    "Upload fashion image",
     type=["jpg", "png", "jpeg"],
     label_visibility="collapsed"
 )
