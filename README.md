@@ -1,6 +1,8 @@
 # 👗 FaSHioN  
 **Editorial-Grade Fashion Image Clustering & Visual Discovery**
 
+![Preview](./Preview_Fashion.png)
+
 FaSHioN is an **unsupervised fashion image clustering pipeline** designed to organize, explore, and discover visual patterns in fashion imagery at an editorial and catalog scale. By leveraging **deep visual embeddings** and **classical machine learning**, FaSHioN enables automated grouping of fashion images based purely on visual similarity—without labels.
 
 Live Demo: https://fashion-clustering.streamlit.app/
